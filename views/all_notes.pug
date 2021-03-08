@@ -1,0 +1,11 @@
+extends layout.pug 
+
+block content 
+    main.content
+        h1.page-title All Notes
+
+        if notes.length 
+            each note in notes 
+                a.note(href='#')= note 
+        else 
+            p No notes yet

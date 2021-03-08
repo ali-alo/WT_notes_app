@@ -87,3 +87,12 @@ a:hover {
   color: #fff;
   padding: 15px 30px;
 }
+
+/* ALL NOTES */
+.note {
+  display: block;
+  color: #444;
+  border-bottom: 1px solid #ccc;
+  font-size: 1.4rem;
+  padding: 10px;
+}

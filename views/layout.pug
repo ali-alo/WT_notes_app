@@ -1,0 +1,18 @@
+doctype html
+html
+    head
+        title Notes 
+        link(rel='stylesheet' href='/static/main.css')
+        link(rel='preconnect' href='https://fonts.gstatic.com')
+        link(href='https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap' rel='stylesheet')
+
+    body
+        header.header 
+            h1 NOTES 
+            
+            nav.nav
+                a.nav-item(href='/notes') All notes 
+                a.nav-item(href='/archive') Archive 
+        
+        block content 
+

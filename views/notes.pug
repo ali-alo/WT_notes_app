@@ -1,0 +1,8 @@
+extend layout
+
+block content
+	ul.notes-list
+		each note in notes
+			li
+				a(href="/notes/" + note.id)= note.title
+				a(href="/notes/" + note.id + "/delete").delete Delete

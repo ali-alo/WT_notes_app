@@ -1,12 +1,13 @@
 {
   "name": "notes",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Simple notes taking app.",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node app"
   },
-  "author": "",
+  "author": "Said Abduvaliev",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",

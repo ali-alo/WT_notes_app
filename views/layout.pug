@@ -1,19 +1,17 @@
 doctype html
 html
-    head
-        title Notes 
-        link(rel='stylesheet' href='/static/main.css')
-        link(rel='preconnect' href='https://fonts.gstatic.com')
-        link(href='https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap' rel='stylesheet')
+  head
+    title Hey
+    link(rel='stylesheet' type='text/css' href='/assets/css/styles.css')
+  body.page-create
+    header
+      h1
+        a(href='/') Notes App
+      ul
+        li
+          a(href='/notes') All notes
+        li
+          a(href='/archive') Archive
 
-    body
-        header.header 
-            h1 
-                a(href='/') NOTES 
-            
-            nav.nav
-                a.nav-item(href='/notes') All notes 
-                a.nav-item(href='/archive') Archive 
-        
-        block content 
-
+    main
+      block content

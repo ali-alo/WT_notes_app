@@ -1,0 +1,12 @@
+extends layout
+
+block content
+	h1 Edit note
+	form(method="post" action="/notes/" + note.id + "id/edit")
+		label(for="title") Title
+		input(type="text" name="title" id="title" value=note.title)
+
+		label(for="body") Body
+		textarea(name="details" id="body" rows="10")=note.body
+
+		input(type="submit" value="Update")
